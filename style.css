@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+#search{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+   
+}
+#search::placeholder{
+    color: red;
+    font-size: 1.1rem;
+
+}
+.emojee{
+    display: inline-block;
+  color: white;
+}
+.name{
+    display: inline-block;
+    width: calc(50% - 48px);
+    color: white;
+ 
+}
+.description{
+    display: inline-block;
+    width: calc(50% - 48px);
+    color: white;
+}
